@@ -1,0 +1,56 @@
+/* variables */
+
+:root { 
+  --main-color: #000000;
+  --main-color-contrast: #ccbcad;
+  --headings-colors: #483e35;
+  --text-colors: #4a413a;
+}
+
+/* global */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-width: 580px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: .3px;
+}
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  margin-bottom: 1em;
+  border-bottom: 1px solid black;
+  padding: 1em;
+}
+
+li:last-child {
+  border: none;
+}
+
+.footer {
+  background-color: var(--main-color-contrast);
+  margin: 0;
+  padding: 0;
+}
+
+#img-caption {
+  display: none;
+}
