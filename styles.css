@@ -1,6 +1,6 @@
 /* variables */
 
-:root { 
+:root {
   --main-color: #000000;
   --main-color-contrast: #ccbcad;
   --headings-colors: #483e35;
@@ -28,7 +28,10 @@ h1 {
 header {
   font-size: 2rem;
 }
-
+.header-title {
+  margin-top: 0;
+  padding-top: 0;
+}
 ul {
   list-style: none;
   max-width: 90%;
@@ -37,13 +40,10 @@ ul {
 
 li {
   margin-bottom: 1em;
-  border-bottom: 1px solid black;
   padding: 1em;
 }
 
-li:last-child {
-  border: none;
-}
+
 
 .footer {
   background-color: var(--main-color-contrast);
@@ -53,4 +53,8 @@ li:last-child {
 
 #img-caption {
   display: none;
+}
+
+img {
+  width: 100%;
 }
