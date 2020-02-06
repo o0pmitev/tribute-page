@@ -58,3 +58,10 @@ li {
 img {
   width: 100%;
 }
+
+@media(min-width: 900px) {
+  img {
+    margin-top: 2em;
+    max-width: 50%;
+  }
+}
